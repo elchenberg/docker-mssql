@@ -1,4 +1,3 @@
-#FROM adminer:4.6.3-standalone
 FROM adminer:4.6.3-fastcgi
 USER root
 RUN apk add --no-cache freetds-dev

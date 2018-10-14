@@ -1,7 +1,7 @@
 version: '2'
 services:
   mssql:
-    build: docker/mssql
+    image: mcr.microsoft.com/mssql/server:2017-CU11
     environment:
       - ACCEPT_EULA=Y
       - SA_PASSWORD=Password1
